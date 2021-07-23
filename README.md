@@ -16,4 +16,10 @@ The dataset to be analyzed for the model prediction is called “Million Song Da
 * Million Song Dataset HDF5 to CSV Converter, Alexis Greenstreet. https://github.com/AGeoCoder/Million-Song-Dataset-HDF5-to-CSV 
 
 
+### Exploratory Data Analysis
+
+### Machine Learning Modeling (Classification)
+
+### Song Popularity Prediction App
+
 
