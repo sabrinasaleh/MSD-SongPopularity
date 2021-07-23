@@ -20,6 +20,8 @@ The dataset to be analyzed for the model prediction is called “Million Song Da
 
 ### Machine Learning Modeling (Classification)
 
+### Key Insights
+
 ### Song Popularity Prediction App
 
 ### Limitations & Future Improvement
