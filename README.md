@@ -25,32 +25,32 @@ The MSD dataset is a collection of metadata of a million contemporary music trac
 ### Exploratory Data Analysis
 Among the 53 feature of the original dataset, 20 features have been selected to initiate the exploratory data analysis. This selection is guided by the field experts with domain knowledge. The target variable, ‘song_hotness’ is measured on a scale from 0 to 1. This measure is transformed to a binary format, where the new column ‘song_popularity’ is defined by 0=not_popular and 1=popular. For the ‘song_hotness’ score below the mean 0.35605, zero (0) is assigned as 'not_popular' and for the ‘song_hotness’ score above the mean 0.35605, one (1) is assigned as 'popular'.       
 #### Definition of Features & Target 
-* track_id
-* song_title
-* release_id
-* release
-* year
+* track_id: Unique ID for each song
+* song_title: Title of each song
+* release_id: Unique ID for each release
+* release: Title of each release/album
+* year: Year when the song was released, according to musicbrainz.org
 #### Artist Features
-* artist_id
-* artist_name
-* artist_familiarity
-* artist_hotness
-* artist_location
+* artist_id: Unique ID for each artist
+* artist_name: Name of each artist
+* artist_familiarity: On a scale of 0 and 1, the familiarity index of the artist according to The Echo Nest 
+* artist_hotness: On a scale of 0 and 1, the hotness index of the artist according to The Echo Nest
+* artist_location: Location (countries/cities) of artist's origin 
 #### Song Features
-* duration
-* end_of_fade_in
-* start_of_fade_out
-* tempo
-* loudness
-* key
-* key_confidence
-* mode
-* mode_confidence
-* time_signature
-* time_signature_confidence
+* duration: Duration of the track in seconds
+* end_of_fade_in: End time of the fade in (in seconds), at the beginning of the song, according to The Echo Nest
+* start_of_fade_out: Start time of the fade out (in seconds), at the end of the song, according to The Echo Nest 
+* tempo: Tempo in BPM according to The Echo Nest
+* loudness: General loudness of the track where the maximum decibels in mixing is represented as 0
+* key: A key is the major or minor scale around which a song revolves; estimation of the key the song is in by The Echo Nest: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+* key_confidence: Confidence level of the key estimation
+* mode: A mode is a type of musical scale coupled with a set of characteristic melodic and harmonic behaviors; estimation of the mode the song is in by The Echo Nest: 0, 1
+* mode_confidence: Confidence level of the mode estimation
+* time_signature: Usual number of beats per bar; time signature of the song according to The Echo Nest: 0, 1, 3, 4, 5, 7
+* time_signature_confidence: Confidence level of the time signature estimation
 #### Target Variable
-* song_hotness
-* song_popularity
+* song_hotness: On a scale of 0 and 1, the hotness index of the song according to The Echo Nest 
+* song_popularity: 0 = not_Popular vs. 1 = popular
 
 ### Machine Learning Modeling (Classification)
 
