@@ -59,8 +59,6 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 ### Key Insights
 
-### Song Popularity Prediction App
-
 ### Limitations & Future Improvement
 
 
