@@ -23,6 +23,33 @@ The MSD dataset is a collection of metadata of a million contemporary music trac
 
 
 ### Exploratory Data Analysis
+#### Definition of Features & Target 
+* track_id
+* song_title
+* release_id
+* release
+* year
+#### Artist Features
+* artist_id
+* artist_name
+* artist_familiarity
+* artist_hotness
+* artist_location
+#### Song Features
+* duration
+* end_of_fade_in
+* start_of_fade_out
+* tempo
+* loudness
+* key
+* key_confidence
+* mode
+* mode_confidence
+* time_signature
+* time_signature_confidence
+#### Target Variable
+* song_hotness
+* song_popularity
 
 ### Machine Learning Modeling (Classification)
 
