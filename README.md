@@ -25,7 +25,7 @@ The MSD dataset is a collection of metadata of a million contemporary music trac
 
 ### Exploratory Data Analysis
 Among the 53 feature of the original dataset, 20 features have been selected to initiate the exploratory data analysis. This selection is guided by the field experts with domain knowledge. The target variable, ‘song_hotness’ is measured on a scale from 0 to 1. This measure is transformed to a binary format, where the new column ‘song_popularity’ is defined by 0=not_popular and 1=popular. For the ‘song_hotness’ score below the mean 0.35605, zero (0) is assigned as 'not_popular' and for the ‘song_hotness’ score above the mean 0.35605, one (1) is assigned as 'popular'.  
-![screen-2](screen_msd_data_table)
+![screen-2](screen_msd_data_table.PNG)
 
 #### Definition of Features & Target 
 * track_id: Unique ID for each song
