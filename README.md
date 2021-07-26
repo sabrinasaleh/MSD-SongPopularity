@@ -5,7 +5,7 @@
 ### Project Summary
 * The objective of this project is to build an **_interactive app_**, where the users can select a set of artist's features and song's features from the input option and as the outcome, the app will generate a song's popularity prediction based on the selected features. 
 * The key users of this app are mostly from the **_music industry_**, which is forecasted to be a 61.82 billion dollar market globally and 22.61 billion dollar market in the United States for the year 2021.
-* The project utilizes the “Million Song Dataset” (MSD); after the exploratory data analysis and data pre-processing, the final dataset contains a total of **_581909 observations with 12 features and 1 target column (song_popularity where 1=popular and 0=not_popular)_**.   
+* The project utilizes the “Million Song Dataset” (MSD); after the exploratory data analysis and data pre-processing, the final dataset contains a total of **_581909 observations_** with **_12 features_** and 1 target column **_(song_popularity where 1=popular and 0=not_popular)_**.   
 * As the machine learning classification model, the **_Random Forest Classifier_** gives the best accuracy score of **_80%_** and ROC accuracy score of **_87.40%_**.    
 
 ### Introduction
@@ -26,7 +26,7 @@ The MSD dataset is a collection of metadata of a million contemporary music trac
 ### Exploratory Data Analysis
 Among the 53 feature of the original dataset, 20 features have been selected to initiate the exploratory data analysis. This selection is guided by the field experts with domain knowledge. The target variable, ‘song_hotness’ is measured on a scale from 0 to 1. This measure is transformed to a binary format, where the new column ‘song_popularity’ is defined by 0=not_popular and 1=popular. For the ‘song_hotness’ score below the mean 0.35605, zero (0) is assigned as 'not_popular' and for the ‘song_hotness’ score above the mean 0.35605, one (1) is assigned as 'popular'. 
 
-![screen-2](screen_msd_table.PNG)
+![screen-2]()
 
 #### Definition of Features & Target 
 * track_id: Unique ID for each song
