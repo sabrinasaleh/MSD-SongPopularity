@@ -50,7 +50,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * time_signature_confidence: Confidence level of the time signature estimation
 #### Target Variable
 * song_hotness: On a scale of 0 and 1, the hotness index of the song according to The Echo Nest 
-* song_popularity: 0 = not_Popular vs. 1 = popular
+* song_popularity: 0 = not_popular vs. 1 = popular
 
 ### Machine Learning Modeling (Classification)
 
