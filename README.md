@@ -19,12 +19,14 @@ Music is an integral part of our daily lives. Each year, thousands of music albu
 ### Data Collection
 The MSD dataset is a collection of metadata of a million contemporary music tracks from 1920 to 2010. It started as a collaborative project between the Echo Nest (now owned by Spotify) and LabROSA of Columbia University. The original dataset contains a total of 1 million observations of unique tracks with 53 feature columns and 1 target column (song_hotness). Important links for the MSD dataset are provided below:
 * [Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. The Million Song Dataset. In Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011), 2011.](https://www.researchgate.net/publication/220723656_The_Million_Song_Dataset)
-* [Million Song Dataset Official Website;](http://millionsongdataset.com/)
+* [Million Song Dataset Official Website](http://millionsongdataset.com/)
 * [Million Song Dataset HDF5 to CSV Converter, Alexis Greenstreet.](https://github.com/AGeoCoder/Million-Song-Dataset-HDF5-to-CSV) 
 
 
 ### Exploratory Data Analysis
-Among the 53 feature of the original dataset, 20 features have been selected to initiate the exploratory data analysis. This selection is guided by the field experts with domain knowledge. The target variable, ‘song_hotness’ is measured on a scale from 0 to 1. This measure is transformed to a binary format, where the new column ‘song_popularity’ is defined by 0=not_popular and 1=popular. For the ‘song_hotness’ score below the mean 0.35605, zero (0) is assigned as 'not_popular' and for the ‘song_hotness’ score above the mean 0.35605, one (1) is assigned as 'popular'.       
+Among the 53 feature of the original dataset, 20 features have been selected to initiate the exploratory data analysis. This selection is guided by the field experts with domain knowledge. The target variable, ‘song_hotness’ is measured on a scale from 0 to 1. This measure is transformed to a binary format, where the new column ‘song_popularity’ is defined by 0=not_popular and 1=popular. For the ‘song_hotness’ score below the mean 0.35605, zero (0) is assigned as 'not_popular' and for the ‘song_hotness’ score above the mean 0.35605, one (1) is assigned as 'popular'.  
+![screen-2](screen_msd_data_table)
+
 #### Definition of Features & Target 
 * track_id: Unique ID for each song
 * song_title: Title of each song
