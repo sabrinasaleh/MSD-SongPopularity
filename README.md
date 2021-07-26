@@ -16,7 +16,7 @@ Music is an integral part of our daily lives. Each year, thousands of music albu
 * Which machine learning model can best simulate the artists' features and songs' features in predicting songs’ popularity with higher accuracy?  
 
 ### Data Collection
-The MSD dataset is a collection of metadata of a million contemporary music tracks from 1920 to 2010. It started as a collaborative project between the Echo Nest (now owned by Spotify) and LabROSA of Columbia University. The original dataset contains ............................ Important links for the MSD dataset are provided below:
+The MSD dataset is a collection of metadata of a million contemporary music tracks from 1920 to 2010. It started as a collaborative project between the Echo Nest (now owned by Spotify) and LabROSA of Columbia University. The original dataset contains a total of 1 million observations of unique tracks with 53 feature columns and 1 target column (song_hotness). Important links for the MSD dataset are provided below:
 * Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. The Million Song Dataset. In Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011), 2011. https://www.researchgate.net/publication/220723656_The_Million_Song_Dataset
 * Million Song Dataset Official Website; http://millionsongdataset.com/
 * Million Song Dataset HDF5 to CSV Converter, Alexis Greenstreet. https://github.com/AGeoCoder/Million-Song-Dataset-HDF5-to-CSV 
