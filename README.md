@@ -14,7 +14,7 @@ Music is an integral part of our daily lives. Each year, thousands of music albu
 ### Business Questions
 * What are the artist's features and song's features that determine songs' popularity in the music industry?
 * Which machine learning model can best simulate the artists' features and songs' features in predicting songs’ popularity with higher accuracy?  
-![screen-1](ScreenShots/screen_target_features.PNG)
+<!-- ![screen-1](ScreenShots/screen_target_features.PNG) -->
 ![screen-2](ScreenShots/screen_target_features_II.PNG)
 
 ### Data Collection
