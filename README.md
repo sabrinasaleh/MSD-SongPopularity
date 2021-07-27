@@ -86,7 +86,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 ![image-4](Images/correlation_heatmap.png)
 
-#### Feature Importance Ranking
+#### Feature Importance Ranking of ML Modeling
 
 ![image-5](Images/feature_importance_rfc.png)
 
