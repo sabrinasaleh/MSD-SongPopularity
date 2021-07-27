@@ -61,6 +61,8 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 ![image-1](Images/missing_data.png)
 #### Target Variable (Pre_Binary Conversion): "song_hotness"
 ![screen-3](ScreenShots/screen_target_variable.png)
+![screen-4](ScreenShots/screen_target_variable_II.PNG)
+
 
 #### Target Variable (Post_Binary Conversion): "song_popularity"
 ### Machine Learning Modeling (Classification)
