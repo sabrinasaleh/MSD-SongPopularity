@@ -101,10 +101,10 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 ![screen-3](ScreenShots/screen_model_comparative.PNG)
 
 #### Classification Report of Random Forest Model
-* In precision, the denominator is the "total negative prediction". Precision = True(-) / True(-) + False(-)
-* In precision, the denominator is the "total positive prediction". Precision = True(+) / True(+) + False(+)
-* In recall, the denominator is the "actual negative total". Recall = True(-) / True(-) + False(+)
-* In recall, the denominator is the "actual positive total". Recall = True(+) / True(+) + False(-)
+* In precision, the denominator is the "total negative prediction". Precision = True(-)/True(-)+False(-)
+* In precision, the denominator is the "total positive prediction". Precision = True(+)/True(+)+False(+)
+* In recall, the denominator is the "actual negative total". Recall = True(-)/True(-)+False(+)
+* In recall, the denominator is the "actual positive total". Recall = True(+)/True(+)+False(-)
 
 ![screen-4](ScreenShots/screen_rfc_classification_report.PNG)
 
