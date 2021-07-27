@@ -92,27 +92,32 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 
 ### Machine Learning Modeling (Classification)
-* Categorical data conversion for "artist_newid" and "release_newid"
-* Data scaling with robust scaler to address the presence of outliers
-* Train and Test data split with the test_size = 0.33
-* classification model testing with logistic regression, decision tree, random forest, and random forest with grid search
+* Categorical data conversion for "artist_newid" and "release_newid".
+* Data scaling with robust scaler to address the presence of outliers.
+* Train and Test data split with the test_size = 0.33.
+* classification model testing with logistic regression, decision tree, random forest, and random forest with grid search.
 * Random Forest Classifier with n-estimators = 500 gives the best accuracy score of 80% and ROC accuracy score of 87.40%.
 
 ![screen-3](ScreenShots/screen_model_comparative.PNG)
 
 #### Classification Report of Random Forest Model
-* In prcision, the denominator is the "total positive prediction". Precision = True(+) / True(+) + False(+)
-* Recall = True(+) / True(+) + False(-)
-*
+* In precision, the denominator is the "total negative prediction". Precision = True(-) / True(-) + False(-)
+* In precision, the denominator is the "total positive prediction". Precision = True(+) / True(+) + False(+)
+* In recall, the denominator is the "actual negative total". Recall = True(-) / True(-) + False(+)
+* In recall, the denominator is the "actual positive total". Recall = True(+) / True(+) + False(-)
 
 ![screen-4](ScreenShots/screen_rfc_classification_report.PNG)
 
 #### Confusion Matrix of Random Forest Model
-*
-*
-*
+* The confusion matrix indicates the presence of Type I error, where false positive predictions are 20065 out of 192030 test dataset. 
+* The confusion matrix indicates the presence of Type II error, where false negative predictions are 19259 out of 192030 test dataset. 
+* The normalized confusion matrix summarizes the precision percentages and the Type I and Type II error percentages.
 
-![screen-5](ScreenShots/screen_confusion_matrix.PNG)
+![screen-5](ScreenShots/screen_rfc_confusion.PNG)
+
+![screen-5](ScreenShots/screen_rfc_confusion_normalized.PNG)
+
+
 
 #### ROC Curve of Random Forest Model
 
