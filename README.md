@@ -82,13 +82,13 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * Machine learning model test with outlier treatment and smaller dataset
 * Model accuracy is significantly better for the analysis with outlier and robust scaler 
 
-#### Correlation Matrix
+#### Correlation and Multicollinearity Test
 
-![image-3](Images/correlation_heatmap.png)
+![image-4](Images/correlation_heatmap.png)
 
+#### Feature Importance Rank
 
-
-
+![image-5](Images/feature_importance.png)
 
 
 ### Machine Learning Modeling (Classification)
