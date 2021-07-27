@@ -106,7 +106,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 #### Confusion Matrix of Random Forest Model
 
-![screen-5](ScreenShots/screen_rfc_confusion_matrix.PNG)
+![screen-5](ScreenShots/screen_confusion_matrix.PNG)
 
 #### ROC Curve of Random Forest Model
 
