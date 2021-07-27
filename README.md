@@ -92,6 +92,15 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 
 ### Machine Learning Modeling (Classification)
+* Categorical data conversion for "artist_newid" and "release_newid"
+* Data scaling with robust scaler to address the presence of outliers
+* Train and Test data split with the test_size = 0.33
+* classification model testing with logistic regression, decision tree, random forest, and random forest with grid search
+* Random Forest Classifier with n-estimators = 500 gives the best accuracy score of 80% and ROC accuracy score of 87.40%.
+
+![screen-3](ScreenShots/screen_model_comparision.PNG)
+
+
 
 ### Key Insights
 
