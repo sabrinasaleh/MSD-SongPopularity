@@ -110,7 +110,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 #### ROC Curve of Random Forest Model
 
-![screen-6](Images/roc_final.png.PNG)
+![screen-6](Images/roc_final.png)
 
 
 
