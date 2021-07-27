@@ -57,6 +57,8 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 #### Target Variable
 * song_hotness: On a scale of 0 and 1, the hotness index of the song according to The Echo Nest 
 * song_popularity: 0 = not_popular vs. 1 = popular
+
+
 #### Missing Data Analysis
 * artist_location: Drop the entire column due to 48.71% missing data
 * song_hotness: Drop the rows with 41.80% missing data 
@@ -64,8 +66,19 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 ![image-1](Images/missing_data.png)
 
 #### Target Variable (Pre_Binary Conversion): "song_hotness"
+* On a scale of 0 and 1, the hotness index of the song according to The Echo Nest 
+* Evidence of right skewed distribution due to mode at 0 
+
+![image-2](Images/distribution_song_hotness_with_outlier.png)
 
 #### Target Variable (Post_Binary Conversion): "song_popularity"
+* For the ‘song_hotness’ score below the mean 0.35605, song_popularity = 0 (not_popular)
+* For the ‘song_hotness’ score above the mean 0.35605, song_popularity = 1 (popular)
+
+![image-3](Images/count_song_popularity_II.png)
+
+
+
 ### Machine Learning Modeling (Classification)
 
 ### Key Insights
