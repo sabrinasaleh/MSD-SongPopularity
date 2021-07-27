@@ -55,6 +55,10 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 #### Target Variable
 * song_hotness: On a scale of 0 and 1, the hotness index of the song according to The Echo Nest 
 * song_popularity: 0 = not_popular vs. 1 = popular
+#### Missing Data Analysis
+* artist_location: Drop the entire column due to 48.71% missing data
+* song_hotness: Drop the rows with 41.80% missing data 
+![image-1](Images/missing_data.PNG)
 
 ### Machine Learning Modeling (Classification)
 
