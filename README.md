@@ -60,6 +60,8 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * song_hotness: Drop the rows with 41.80% missing data 
 ![image-1](Images/missing_data.png)
 #### Target Variable (Pre_Binary Conversion): "song_hotness"
+![screen-3](ScreenShots/screen_target_variable.png)
+
 #### Target Variable (Post_Binary Conversion): "song_popularity"
 ### Machine Learning Modeling (Classification)
 
