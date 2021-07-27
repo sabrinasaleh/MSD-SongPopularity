@@ -15,7 +15,7 @@ Music is an integral part of our daily lives. Each year, thousands of music albu
 * What are the artist's features and song's features that determine songs' popularity in the music industry?
 * Which machine learning model can best simulate the artists' features and songs' features in predicting songs’ popularity with higher accuracy?  
 <!-- ![screen-1](ScreenShots/screen_target_features.PNG) -->
-![screen-2](ScreenShots/screen_target_features_II.PNG)
+
 
 ### Data Collection
 The MSD dataset is a collection of metadata of a million contemporary music tracks from 1920 to 2010. It started as a collaborative project between the Echo Nest (now owned by Spotify) and LabROSA of Columbia University. The original dataset contains a total of 1 million observations of unique tracks with 53 feature columns and 1 target column (song_hotness). Important links for the MSD dataset are provided below:
@@ -61,8 +61,6 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * song_hotness: Drop the rows with 41.80% missing data 
 ![image-1](Images/missing_data.png)
 #### Target Variable (Pre_Binary Conversion): "song_hotness"
-![screen-4](ScreenShots/screen_target_variable_I.png)
-<!-- ![screen-5](ScreenShots/screen_target_variable_II.PNG) -->
 
 
 #### Target Variable (Post_Binary Conversion): "song_popularity"
