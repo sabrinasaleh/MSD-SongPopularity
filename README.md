@@ -14,7 +14,7 @@ Music is an integral part of our daily lives. Each year, thousands of music albu
 ### Business Questions
 * What are the artist's features and song's features that determine songs' popularity in the music industry?
 * Which machine learning model can best simulate the artists' features and songs' features in predicting songs’ popularity with higher accuracy?  
-![screen-1](screen_target_features.PNG)
+![screen-1](ScreenShots/screen_target_features.PNG)
 
 ### Data Collection
 The MSD dataset is a collection of metadata of a million contemporary music tracks from 1920 to 2010. It started as a collaborative project between the Echo Nest (now owned by Spotify) and LabROSA of Columbia University. The original dataset contains a total of 1 million observations of unique tracks with 53 feature columns and 1 target column (song_hotness). Important links for the MSD dataset are provided below:
@@ -26,7 +26,7 @@ The MSD dataset is a collection of metadata of a million contemporary music trac
 ### Exploratory Data Analysis
 Among the 53 feature of the original dataset, 20 features have been selected to initiate the exploratory data analysis. This selection is guided by the field experts with domain knowledge. The target variable, ‘song_hotness’ is measured on a scale from 0 to 1. This measure is transformed to a binary format, where the new column ‘song_popularity’ is defined by 0=not_popular and 1=popular. For the ‘song_hotness’ score below the mean 0.35605, zero (0) is assigned as 'not_popular' and for the ‘song_hotness’ score above the mean 0.35605, one (1) is assigned as 'popular'. 
 
-![screen-2](screen_msd_feature_table.PNG)
+![screen-2](ScreenShots/screen_msd_feature_table.PNG)
 
 #### Definition of Features & Target 
 * track_id: Unique ID for each song
