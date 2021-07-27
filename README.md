@@ -95,16 +95,18 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * Categorical data conversion for "artist_newid" and "release_newid".
 * Data scaling with robust scaler to address the presence of outliers.
 * Train and Test data split with the test_size = 0.33.
-* classification model testing with logistic regression, decision tree, random forest, and random forest with grid search.
+* Classification model testing with logistic regression, decision tree, random forest, and random forest with grid search.
 * Random Forest Classifier with n-estimators = 500 gives the best accuracy score of 80% and ROC accuracy score of 87.40%.
 
 ![screen-3](ScreenShots/screen_model_comparative.PNG)
 
 #### Classification Report of Random Forest Model
-* In precision, the denominator is the "total negative prediction". Precision = True(-)/True(-)+False(-)
-* In precision, the denominator is the "total positive prediction". Precision = True(+)/True(+)+False(+)
+* In precision, the denominator is the "total negative prediction". True(-)/True(-)+False(-)
+* In precision, the denominator is the "total positive prediction". True(+)/True(+)+False(+)
 * In recall, the denominator is the "actual negative total". Recall = True(-)/True(-)+False(+)
 * In recall, the denominator is the "actual positive total". Recall = True(+)/True(+)+False(-)
+* Accuracy measures the ratio of correct prediction to total prediction
+* Accuracy = True(+)+True(-)/True(+)+True(-)+False(+)+False(-) 
 
 ![screen-4](ScreenShots/screen_rfc_classification_report.PNG)
 
@@ -126,7 +128,20 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 
 ### Key Insights
+* The MSD dataset contains important data on the **_meaningful feature variables_** that are critical to determine song_popularity.
+* Between the artist and song features, **_artists' (i.e., singers') demography_** tend to have higher influence in determining song_popularity.
+* The best accuracy of the machine learning model for the MSD dataset is 80%, which suggests that the dataset needs more data on the current features and additional meaningful features such as the **_artist_location, song_genre, and the revenue related business data_**.      
 
 ### Limitations & Future Improvement
+* The current analysis lacks data on the artist_location, song_genre, and the revenue related business data. An extension of this analysis with additional data will significantly improve the model accuracy.
+* To improve the model accuracy, I tried to run a stacked model with the logistic regression, knn, decision tree, svm, naive bayes, and random forest classifiers. But my machine was not powerful enough to run the stacked model. A simulation with the super computer will significantly improve the model accuracy.
+* The interactive app is an initial prototype, which mainly was built using the basic html and css. As future improvement, the goal is to incorporate the advanced frontend tools to make the app more user-friendly.
+
+### Applied Technologies
+* Python and Pandas
+* Matplotlib and Seaborn
+* Postgres Database and SQL-Alchemy
+* Scikit-learn and Machine Learning Modeling
+* HTML, CSS, and Flask 
 
 
