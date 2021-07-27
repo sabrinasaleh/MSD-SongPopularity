@@ -75,7 +75,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * For the ‘song_hotness’ score below the mean 0.35605, song_popularity = 0 (not_popular)
 * For the ‘song_hotness’ score above the mean 0.35605, song_popularity = 1 (popular)
 
-![image-3](Images/count_song_popularity_detail.png)
+![image-3](Images/count_song_popularity_final.png)
 
 
 
