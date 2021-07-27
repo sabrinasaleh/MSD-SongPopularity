@@ -77,6 +77,18 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 ![image-3](Images/count_song_popularity_final.png)
 
+#### Outlier Treatment
+* Machine learning model test with outlier and robust scaler
+* Machine learning model test with outlier treatment and smaller dataset
+* Model accuracy is significantly better for the analysis with outlier and robust scaler 
+
+#### Correlation Matrix
+
+![image-3](Images/correlation_heatmap.png)
+
+
+
+
 
 
 ### Machine Learning Modeling (Classification)
