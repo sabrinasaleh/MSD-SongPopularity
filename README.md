@@ -88,7 +88,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 #### Feature Importance Rank
 
-![image-5](Images/feature_importance.png)
+![image-5](Images/feature_rfc.png)
 
 
 ### Machine Learning Modeling (Classification)
