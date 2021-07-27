@@ -58,7 +58,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 #### Missing Data Analysis
 * artist_location: Drop the entire column due to 48.71% missing data
 * song_hotness: Drop the rows with 41.80% missing data 
-![image-1](Images/missing_data.PNG)
+![image-1](Images/missing_data.png)
 
 ### Machine Learning Modeling (Classification)
 
