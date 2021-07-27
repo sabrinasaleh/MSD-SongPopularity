@@ -100,11 +100,17 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 ![screen-3](ScreenShots/screen_model_comparative.PNG)
 
-#### Random Forest Classification Report
+#### Classification Report of Random Forest Model
 
 ![screen-4](ScreenShots/screen_rfc_classification_report.PNG)
 
+#### Confusion Matrix of Random Forest Model
 
+![screen-5](ScreenShots/screen_rfc_confusion_matrix.PNG)
+
+#### ROC Curve of Random Forest Model
+
+![screen-5](ScreenShots/screen_rfc_roc_curve.PNG)
 
 
 
