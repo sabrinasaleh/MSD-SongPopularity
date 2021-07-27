@@ -98,7 +98,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * classification model testing with logistic regression, decision tree, random forest, and random forest with grid search
 * Random Forest Classifier with n-estimators = 500 gives the best accuracy score of 80% and ROC accuracy score of 87.40%.
 
-![screen-3](ScreenShots/screen_model_comparision.PNG)
+![screen-3](ScreenShots/screen_model_comparative.PNG)
 
 
 
