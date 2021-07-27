@@ -101,10 +101,16 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 ![screen-3](ScreenShots/screen_model_comparative.PNG)
 
 #### Classification Report of Random Forest Model
+* In prcision, the denominator is the "total positive prediction". Precision = True(+) / True(+) + False(+)
+* Recall = True(+) / True(+) + False(-)
+*
 
 ![screen-4](ScreenShots/screen_rfc_classification_report.PNG)
 
 #### Confusion Matrix of Random Forest Model
+*
+*
+*
 
 ![screen-5](ScreenShots/screen_confusion_matrix.PNG)
 
