@@ -117,7 +117,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * The confusion matrix indicates the presence of Type II error, where false negative predictions are 19259 out of 192030 test dataset. 
 * The normalized confusion matrix summarizes the precision percentages and the Type I and Type II error percentages.
 
-![screen-5](ScreenShots/screen_rfc_confusion.PNG)
+![screen-5](ScreenShots/screen_rfc_confusion_values.PNG)
 
 ![screen-5](ScreenShots/screen_rfc_confusion_normalized.PNG)
 
