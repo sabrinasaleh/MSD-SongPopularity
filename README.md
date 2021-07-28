@@ -3,6 +3,8 @@
 # **Song Popularity Prediction: ML Classification**
 
 ### Project Summary
+![image-1](Images/summary_I.png)
+![image-2](Images/summary_II.png)
 * The objective of this project is to build an **_interactive app_**, where the users can select a set of artist's features and song's features from the input option and as the outcome, the app will generate a song's popularity prediction based on the selected features. 
 * The key users of this app are mostly from the **_music industry_**, which is forecasted to be a 61.82 billion dollar market globally and 22.61 billion dollar market in the United States for the year 2021.
 * The project utilizes the “Million Song Dataset” (MSD); after the exploratory data analysis and data pre-processing, the final dataset contains a total of **_581909 observations_** with **_12 features_** and 1 target column **_(song_popularity where 1=popular and 0=not_popular)_**.   
@@ -63,19 +65,19 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * artist_location: Drop the entire column due to 48.71% missing data
 * song_hotness: Drop the rows with 41.80% missing data 
 
-![image-1](Images/missing_data.png)
+![image-3](Images/missing_data.png)
 
 #### Target Variable (Pre_Binary Conversion): "song_hotness"
 * On a scale of 0 and 1, the hotness index of the song according to The Echo Nest 
 * Evidence of right skewed distribution due to mode at 0 
 
-![image-2](Images/distribution_song_hotness_with_outlier.png)
+![image-4](Images/distribution_song_hotness_with_outlier.png)
 
 #### Target Variable (Post_Binary Conversion): "song_popularity"
 * For the ‘song_hotness’ score below the mean 0.35605, song_popularity = 0 (not_popular)
 * For the ‘song_hotness’ score above the mean 0.35605, song_popularity = 1 (popular)
 
-![image-3](Images/count_song_popularity_final.png)
+![image-5](Images/count_song_popularity_final.png)
 
 #### Outlier Treatment
 * Machine learning model test with outlier and robust scaler
@@ -84,11 +86,11 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 #### Correlation and Multicollinearity Test
 
-![image-4](Images/correlation_heatmap.png)
+![image-6](Images/correlation_heatmap.png)
 
 #### ML-Model Feature Importance Ranking
 
-![image-5](Images/feature_importance_rfc.png)
+![image-7](Images/feature_importance_rfc.png)
 
 
 ### Machine Learning Modeling (Classification)
