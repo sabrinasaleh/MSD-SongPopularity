@@ -132,7 +132,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 ## **Key Insights**
 * The MSD dataset contains important data on the **_meaningful feature variables_** that are critical to determine song_popularity.
 * Between the artist and song features, **_artists' (i.e., singers') demography_** tend to have higher influence in determining song_popularity.
-* The best accuracy of the machine learning model for the MSD dataset is 80%, which suggests that the dataset needs more data on the current features and additional meaningful features such as the **_artist_location, song_genre, and the revenue related business data_**.      
+* More contemporary and latest data on the existing features as well as on the additional meaningful features such as the **_artist_location, song_genre, and the revenue related business data_** will improve the model accuracy.      
 
 ## **Limitations & Future Improvement**
 * The current analysis lacks data on the artist_location, song_genre, and the revenue related business data. An extension of this analysis with **_additional latest data_** will significantly improve the model accuracy.
