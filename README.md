@@ -135,9 +135,9 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * The best accuracy of the machine learning model for the MSD dataset is 80%, which suggests that the dataset needs more data on the current features and additional meaningful features such as the **_artist_location, song_genre, and the revenue related business data_**.      
 
 ## **Limitations & Future Improvement**
-* The current analysis lacks data on the artist_location, song_genre, and the revenue related business data. An extension of this analysis with additional data will significantly improve the model accuracy.
-* To improve the model accuracy, I tried to run a stacked model with the logistic regression, knn, decision tree, svm, naive bayes, and random forest classifiers. But my machine was not powerful enough to run the stacked model. A simulation with the super computer will significantly improve the model accuracy.
-* The interactive app is an initial prototype, which mainly was built using the basic html and css. As future improvement, the goal is to incorporate the advanced frontend tools to make the app more user-friendly.
+* The current analysis lacks data on the artist_location, song_genre, and the revenue related business data. An extension of this analysis with **_additional latest data_** will significantly improve the model accuracy.
+* To improve the model accuracy, I tried to run a stacked model with the logistic regression, knn, decision tree, svm, naive bayes, and random forest classifiers. But my machine was not powerful enough to run the stacked model. A **_simulation with the super computer_** will significantly improve the model accuracy.
+* The interactive app is an initial prototype, which mainly was built using the basic html and css. As future improvement, the goal is to incorporate the advanced frontend tools to make the **_app more user-friendly_**.
 
 ## **Applied Technologies**
 * Python and Pandas
