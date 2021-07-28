@@ -110,7 +110,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * Accuracy measures the ratio of correct prediction to total prediction
 * Accuracy = True(+)+True(-)/True(+)+True(-)+False(+)+False(-) 
 
-![screen-4](ScreenShots/screen_rfc_classification_report_red.PNG)
+![screen-4](ScreenShots/screen_rfc_classification_report_pointer.PNG)
 
 #### Confusion Matrix of Random Forest Model
 * The confusion matrix indicates the presence of Type I error, where false positive predictions are 20065 out of 192030 test dataset. 
