@@ -17,7 +17,7 @@ Music is an integral part of our daily lives. Each year, thousands of music albu
 * What are the artist's features and song's features that determine songs' popularity in the music industry?
 * Which machine learning model can best simulate the artists' features and songs' features in predicting songs’ popularity with higher accuracy?  
 
-![screen-1](ScreenShots/screen_target_feature.png)
+![screen-1](ScreenShots/screen_target_feature_smaller.png)
 
 
 ### Data Collection
@@ -65,19 +65,19 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * artist_location: Drop the entire column due to 48.71% missing data
 * song_hotness: Drop the rows with 41.80% missing data 
 
-![image-3](Images/missing_data.png)
+![image-2](Images/missing_data_blue.png)
 
 #### Target Variable (Pre_Binary Conversion): "song_hotness"
 * On a scale of 0 and 1, the hotness index of the song according to The Echo Nest 
 * Evidence of right skewed distribution due to mode at 0 
 
-![image-4](Images/distribution_song_hotness_with_outlier.png)
+![image-3](Images/distribution_song_hotness_orange.png)
 
 #### Target Variable (Post_Binary Conversion): "song_popularity"
 * For the ‘song_hotness’ score below the mean 0.35605, song_popularity = 0 (not_popular)
 * For the ‘song_hotness’ score above the mean 0.35605, song_popularity = 1 (popular)
 
-![image-5](Images/count_song_popularity_final.png)
+![image-4](Images/count_song_popularity_final.png)
 
 #### Outlier Treatment
 * Machine learning model test with outlier and robust scaler
@@ -86,11 +86,11 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 #### Correlation and Multicollinearity Test
 
-![image-6](Images/correlation_heatmap.png)
+![image-5](Images/correlation_heatmap_blue.png)
 
 #### ML-Model Feature Importance Ranking
 
-![image-7](Images/feature_importance_rfc.png)
+![image-6](Images/feature_importance_rfc.png)
 
 
 ### Machine Learning Modeling (Classification)
