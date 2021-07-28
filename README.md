@@ -3,8 +3,8 @@
 # **Song Popularity Prediction: ML Classification**
 
 ### Project Summary
-![image-1](Images/summary_I.png)
-![image-2](Images/summary_II.png)
+![image-1](Images/summary.png)
+
 * The objective of this project is to build an **_interactive app_**, where the users can select a set of artist's features and song's features from the input option and as the outcome, the app will generate a song's popularity prediction based on the selected features. 
 * The key users of this app are mostly from the **_music industry_**, which is forecasted to be a 61.82 billion dollar market globally and 22.61 billion dollar market in the United States for the year 2021.
 * The project utilizes the “Million Song Dataset” (MSD); after the exploratory data analysis and data pre-processing, the final dataset contains a total of **_581909 observations_** with **_12 features_** and 1 target column **_(song_popularity where 1=popular and 0=not_popular)_**.   
