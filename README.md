@@ -139,14 +139,14 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * To improve the model accuracy, I tried to run a stacked model with the logistic regression, knn, decision tree, svm, naive bayes, and random forest classifiers. But my machine was not powerful enough to run the stacked model. A **_simulation with the super computer_** will significantly improve the model accuracy.
 * The interactive app is an initial prototype, which mainly was built using the basic html and css. As future improvement, the goal is to incorporate the advanced frontend tools to make the **_app more user-friendly_**.
 
-## **Applied Technologies**
+#### Applied Technologies
 * Python and Pandas
 * Matplotlib and Seaborn
 * Postgres Database and SQL-Alchemy
 * Scikit-learn and Machine Learning Modeling
 * HTML, CSS, and Flask 
 
-## **Acknowledgement**
+#### Acknowledgement
 Celia Fryar, Connor Fryar, & Oswald Vinueza 
 
 
