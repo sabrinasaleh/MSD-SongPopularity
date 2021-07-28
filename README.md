@@ -135,7 +135,7 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * More contemporary and latest data on the existing features as well as on the additional meaningful features such as the **_artist_location, song_genre, and the revenue related business data_** will improve the model accuracy.      
 
 ## **Limitations & Future Improvement**
-* The current analysis lacks data on the artist_location, song_genre, and the revenue related business data. An extension of this analysis with **_additional latest data_** will significantly improve the model accuracy.
+* The current analysis lacks data on the artist_location, song_genre, and the revenue related business data. Also, the dataset hasn't been updated after 2011. An extension of this project analysis with **_additional latest data_** will significantly improve the model accuracy.
 * To improve the model accuracy, I tried to run a stacked model with the logistic regression, knn, decision tree, svm, naive bayes, and random forest classifiers. But my machine was not powerful enough to run the stacked model. A **_simulation with the super computer_** will significantly improve the model accuracy.
 * The interactive app is an initial prototype, which mainly was built using the basic html and css. As future improvement, the goal is to incorporate the advanced frontend tools to make the **_app more user-friendly_**.
 
