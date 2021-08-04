@@ -1,6 +1,8 @@
 ##### Capstone Project by Sabrina Saleh | Talent Path | July 2021
 
 # **Song Popularity Prediction: ML Classification**
+#### App Link: http://ec2-3-131-158-190.us-east-2.compute.amazonaws.com:5000/
+#### Docker Pull: docker pull sabrinasaleh/capstone_msd_image
 
 ## **Project Summary**
 ![image-1](Images/project_summary_complete.png)
