@@ -5,7 +5,8 @@
 #### Docker Pull: docker pull sabrinasaleh/msd_docker_image
 
 ## **Project Summary**
-![image-1](Images/project_summary_complete.png) **********************************
+<!-- ![image-1](Images/project_summary_complete.png) -->
+![image-1](Images/project_summary_grb.png)
 
 <!-- * The objective of this project is to build an **_interactive app_**, where the users can select a set of artist's features and song's features from the input option and as the outcome, the app will generate a song's popularity prediction based on the selected features. 
 * The key users of this app are mostly from the **_music industry_**, which is forecasted to be a 61.82 billion dollar market globally and 22.61 billion dollar market in the United States for the year 2021.
@@ -92,7 +93,8 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 
 #### ML-Model Feature Importance Ranking
 
-![image-6](Images/feature_importance_rfc.png) *******************************
+<!-- ![image-6](Images/feature_importance_rfc.png) -->
+![image-6](Images/feature_importance_grb.png)
 
 
 ## **Machine Learning Modeling (Classification)**
@@ -101,11 +103,12 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * Train and Test data split with the test_size = 0.33.
 * Classification model testing with logistic regression, decision tree, random forest, random forest with grid search, and gradiant boosting.
 * Random Forest Classifier gives the best accuracy score of 79% and ROC accuracy score of 0.869. 
-* Because of large model size, the second best model "Gradiant Boosting Classifier" was chosen as final model (accuracy score of 74% and ROC accuracy score of 0.811).
+* Because of the inconvenience of rfc model size, the second best model "Gradient Boosting Classifier" was chosen as the final model (accuracy score of 74% and ROC accuracy score of 0.811).
 
-![screen-3](ScreenShots/screen_model_comparative.PNG) ****************************
+<!-- ![screen-3](ScreenShots/screen_model_comparative.PNG)  -->
+![screen-3](ScreenShots/screen_model_comparison.PNG) 
 
-#### Classification Report of Random Forest Model
+#### Classification Report of Gradient Boosting Model
 * In precision, the denominator is the "total negative prediction". True(-)/True(-)+False(-)
 * In precision, the denominator is the "total positive prediction". True(+)/True(+)+False(+)
 * In recall, the denominator is the "actual negative total". Recall = True(-)/True(-)+False(+)
@@ -113,22 +116,28 @@ Among the 53 feature of the original dataset, 20 features have been selected to 
 * Accuracy measures the ratio of correct prediction to total prediction
 * Accuracy = True(+)+True(-)/True(+)+True(-)+False(+)+False(-) 
 
-![screen-4](ScreenShots/screen_rfc_classification_report_pointer.PNG) ******************************
+<!-- ![screen-4](ScreenShots/screen_rfc_classification_report_pointer.PNG) -->
+![screen-4](ScreenShots/screen_grb_classification_report_pointer.PNG)
 
-#### Confusion Matrix of Random Forest Model
-* The confusion matrix indicates the presence of Type I error, where false positive predictions are 20065 out of 192030 test dataset. 
-* The confusion matrix indicates the presence of Type II error, where false negative predictions are 19259 out of 192030 test dataset. 
+#### Confusion Matrix of Gradient Boosting Model
+* The confusion matrix indicates the presence of Type I error, where false positive predictions are 27002 out of 192030 test dataset. 
+* The confusion matrix indicates the presence of Type II error, where false negative predictions are 23605 out of 192030 test dataset. 
 * The normalized confusion matrix summarizes the precision percentages and the Type I and Type II error percentages.
 
-![screen-5](ScreenShots/screen_rfc_confusion_values.PNG) ************************
+<!-- ![screen-5](ScreenShots/screen_rfc_confusion_values.PNG)  -->
 
-![screen-5](ScreenShots/screen_rfc_confusion_normalized.PNG) *****************************
+![screen-5](ScreenShots/screen_grb_confusion_values.PNG) 
+
+<!-- ![screen-5](ScreenShots/screen_rfc_confusion_normalized.PNG)  -->
+
+![screen-5](ScreenShots/screen_grb_confusion_normalized.PNG) 
 
 
 
-#### ROC Curve of Random Forest Model
+#### ROC Curve of Gradient Boosting Model
 
-![screen-6](Images/roc_final.png) **********************************
+<!-- ![image-7](Images/roc_final.png)  -->
+![image-7](Images/roc_grb_final.png) 
 
 
 
